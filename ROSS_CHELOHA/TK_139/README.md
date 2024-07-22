@@ -2,6 +2,7 @@ TK_138: Clustering of Ab sequences
 
 # Run cd-hit clustering
 ```
+# Use cd-hit/4.8.1
 sbatch ./run_cd_hit.sh
 ```
 
@@ -27,6 +28,7 @@ tail -30 cluster_counts.sorted.txt|sort -k3,3nr > top30.count
 
 # Extract representative sequences for top30 clusters
 ```
+module load seqtk/1.4
 seqtk subseq NK1R_ORFs_Galaxy_processing.NR.fasta top30.ids > top30.fasta
 ```
 

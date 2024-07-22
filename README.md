@@ -1,5 +1,3 @@
-# WORKSHOP2024_2
-
 # TK_138: Clustering of Ab sequences
 
 ## Run cd-hit clustering
